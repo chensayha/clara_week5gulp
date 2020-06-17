@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首頁</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="containerAdjust row">
+    <div class="col-3">
+      <header class="header">
+        <ul class="nav flex-column fz-16px lh-24px">
+          <li class="ml-32px"><h1><a href="#"><img src="./assets/images/logo-ANSWER.svg" alt=""></a></h1></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="material-icons">insert_chart</span>
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="material-icons">forum</span>
+              Question
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              <span class="material-icons">assignment</span>
+              Assignment
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="material-icons">video_library</span>
+              Course
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="material-icons">supervisor_account</span>
+              Admin
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="material-icons">settings</span>
+              Settings
+            </a>
+          </li>
+        </ul>
+        <div class="user d-flex align-items-center ml-32px">
+          <img class="userImg mr-16px" src="./assets/images/andychen.jpeg" alt="">
+          <div>
+          <div class="userName">Andy Chen</div>
+          <p class="fz-14px">andy0401@mail.com</p>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="col-9">
+      <!-- 右側內容 -->
+<section class="content">
+    <div class="contentNav">
+        <!-- 內容標題 -->
+        <div>
+            <h2 class="d-inline">Assignment</h2>
+            <!-- 內容標題下拉選單 -->
+            <div class="dropdown d-inline">
+                <a class="btn dropdownBtn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    All Courses
+                    <span class="material-icons">keyboard_arrow_down</span>
+                </a>              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">All Courses</a>
+                  <a class="dropdown-item" href="#">All Courses</a>
+                  <a class="dropdown-item" href="#">All Courses</a>
+                </div>
+            </div>           
+        </div>
+        <div class="navRight">
+            <span class="material-icons">search</span>
+            <span class="material-icons">notifications_active</span>
+        </div>
+    </div>
+    <div class="contentDetail">
+        <div class="row">
+            <div class="col-5">
+                <!-- 內容清單下拉選單 -->
+                <div class="dropdown d-inline">
+                    <a class="btn dropdownBtn" href="#" role="button" id="dropdownfilter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        All(4)
+                        <span class="material-icons">keyboard_arrow_down</span>
+                    </a>              
+                    <div class="dropdown-menu" aria-labelledby="dropdownfilter">
+                      <a class="dropdown-item" href="#">Chapter Assignment 2</a>
+                      <a class="dropdown-item" href="#">Chapter Assignment 1</a>
+                      <a class="dropdown-item" href="#">Final Assignment</a>
+                    </div>
+                    <!-- 內容清單 -->
+                    <ul class="list">
+                        <li class="listItem active">
+                            <div class="d-flex justify-content-between">
+                                <div class="title">
+                                    <p>Chapter Assignment 2</p>
+                                    <h3>Please check this file…</h3>
+                                </div>
+                                <div class="info">
+                                    <p>4 hrs ago</p>
+                                    <p class="colorGray">Emily Wang</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="listItem">
+                            <div class="d-flex justify-content-between">
+                                <div class="title">
+                                    <p>Chapter Assignment 1</p>
+                                    <h3>My Homework</h3>
+                                </div>
+                                <div class="info">
+                                    <p>12 hrs ago</p>
+                                    <p class="colorGray">David Xu</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="listItem">
+                            <div class="d-flex justify-content-between">
+                                <div class="title">
+                                    <p>Final Assignment</p>
+                                    <h3>Have a problem with this…</h3>
+                                </div>
+                                <div class="info">
+                                    <p>18 hrs ago</p>
+                                    <p class="colorGray">Tony Wei</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="listItem">
+                            <div class="d-flex justify-content-between">
+                                <div class="title">
+                                    <p>Final Assignment</p>
+                                    <h3>Did I do it right?</h3>
+                                </div>
+                                <div class="info">
+                                    <p>19 hrs ago</p>
+                                    <p class="colorGray">Christina Lin</p>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+                </div>   
+            </div>
+            <div class="col-7">
+                <p class="text-right colorGray lh-24px fz-12px comments">2 comments</p>
+                <!-- 詳細內容標題 -->
+                <div class="list mb-16px">
+                    <div class="listItem d-flex justify-content-between align-items-center titleStyle mb-16px">
+                        <div>
+                            <p>Chapter Assignment 2 / HTML&CSS</p>
+                            <h3>Please check this file for me, thanks!</h3>
+                        </div>
+                        <span class="material-icons spanPointer">more_vert</span>
+                    </div>
+                
+                <!-- 詳細內容內文 -->
+                <div class="row justify-content-center">
+                    <div class="col-1 p-0">
+                        <img class="userImg ml-auto" src="./assets/images/emilywang.jpeg" alt="">
+                    </div>
+                    <div class="col-10 underLine pb-16px mb-16px">
+                        <div class="postContent">
+                            <div class="userName mb-0">Emily Wang</div>
+                            <div class="postTime">10:38 AM (4 hours ago)</div>
+                            <p>
+                                Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="hightLight">div</span> is bigger than the height of the <span class="hightLight">img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br/>
+                                What is the gap or extra space below image?
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-lightGreen">
+                            <span class="material-icons">attachment</span>
+                            HW-2-David.zip
+                        </button>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-1 p-0">
+                        <img class="userImg ml-auto" src="./assets/images/andychen.jpeg" alt="">
+                    </div>
+                    <div class="col-10 pb-16px">
+                        <div class="postContent">
+                            <div class="d-flex justify-content-between">
+                                <div class="userName mb-0">Andy Chen (You)</div>
+                                <div>
+                                    <span class="material-icons mr-24px spanPointer">star_border</span>
+                                    <span class="material-icons spanPointer">edit</span>
+                                </div>
+                            </div>
+                            <div class="postTime">13:24 AM (1 hours ago)</div>
+                            <p>
+                                Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.
+                            </p>
+                            <p>
+                                You can:
+                            </p>
+                            <p>
+                                • adjust the <span class="hightLight">vertical-align</span> of the image to position it elsewhere (e.g. the mid <span class="hightLight">middle</span> )<br/>
+                                • change the <span class="hightLight">display</span> so it isn’t inline.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 詳細內容下方按鈕 -->
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <span class="material-icons mr-24px spanPointer">chevron_left</span>
+                        <span class="material-icons spanPointer">chevron_right</span>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-grass mr-16px">Mark as read</button>
+                        <button type="button" class="btn btn-grass">Reply</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section> 
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

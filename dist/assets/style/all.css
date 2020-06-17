@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+html, body {
+  font-family: 'Lato', sans-serif; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+.containerAdjust {
+  max-width: 1280px; }
+
+.pl-32px {
+  padding-left: 32px; }
+
+.pb-16px {
+  padding-bottom: 16px; }
+
+.mr-16px {
+  margin-right: 16px; }
+
+.mr-24px {
+  margin-right: 24px; }
+
+.mb-16px {
+  margin-bottom: 16px; }
+
+.mr-8px {
+  margin-right: 8px; }
+
+.ml-32px {
+  margin-left: 32px; }
+
+.fz-12px {
+  font-size: 12px; }
+
+.fz-14px {
+  font-size: 14px; }
+
+.fz-16px {
+  font-size: 16px; }
+
+.lh-24px {
+  line-height: 24px; }
+
+.colorGray {
+  color: #0000009A; }
+
+.dropdownBtn {
+  font-weight: 700; }
+  .dropdownBtn span {
+    vertical-align: bottom;
+    color: #2A8356; }
+
+.btn-lightGreen {
+  background-color: #EDF4EE;
+  border-color: #CDDDCD;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700; }
+  .btn-lightGreen .material-icons {
+    vertical-align: bottom;
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg); }
+
+.btn-grass {
+  color: white;
+  background-color: #2A8356; }
+
+.btn-outline-grass {
+  border-color: #2A8356;
+  color: #2A8356;
+  font-weight: 700; }
+
+.underLine {
+  border-bottom: 1px solid #CDDDCD; }
+
+.spanPointer {
+  cursor: pointer; }
+
+.spanPointer:hover {
+  color: #2A8356; }
+
+.header {
+  background-color: #EDF4EE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  margin-left: -15px;
+  height: 100vh; }
+  .header .nav-item {
+    border-left: 4px solid #EDF4EE;
+    margin-left: 15px; }
+    .header .nav-item span {
+      vertical-align: bottom;
+      margin-right: 16px;
+      padding-left: 16px; }
+    .header .nav-item a {
+      color: #121212;
+      font-weight: 700;
+      padding-left: 0; }
+    .header .nav-item a:hover {
+      color: #2A8356; }
+    .header .nav-item a.active {
+      color: #2A8356; }
+
+.nav-item.active {
+  border-left-color: #2A8356; }
+  .nav-item.active a {
+    color: #2A8356; }
+
+.user p {
+  color: #0000009A;
+  margin: 0; }
+
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%; }
+
+.userName {
+  margin-bottom: 4px;
+  font-weight: 700; }
+
+.content {
+  padding-left: 2px; }
+
+.contentNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 32px;
+  height: 93px; }
+  .contentNav h2 {
+    line-height: 33px;
+    font-size: 24px;
+    margin-right: 46px;
+    font-weight: 700; }
+  .contentNav span {
+    vertical-align: bottom; }
+  .contentNav .navRight {
+    cursor: pointer; }
+    .contentNav .navRight :hover {
+      color: #2A8356; }
+    .contentNav .navRight :nth-child(1) {
+      margin-right: 26px; }
+
+.list {
+  border: 1px solid #CDDDCD;
+  border-radius: 3px;
+  padding-left: 0;
+  z-index: 2; }
+
+.listItem {
+  border-bottom: 1px solid #CDDDCD;
+  list-style-type: none;
+  padding: 12px; }
+  .listItem p {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 0; }
+  .listItem h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0; }
+
+.listItem.active {
+  background-color: #EDF4EE; }
+
+.comments {
+  margin-top: 6px;
+  margin-bottom: 6px; }
+
+.titleStyle {
+  background-color: #EDF4EE;
+  border-bottom: 1px solid #CDDDCD; }
+
+.postContent p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400; }
+
+.postContent .hightLight {
+  background-color: #EDF4EE;
+  color: #2A8356;
+  padding: 0 5px;
+  border-radius: 3px; }
+
+.postTime {
+  font-size: 12px;
+  line-height: 24px;
+  color: #0000009A; }
+
+/*# sourceMappingURL=all.css.map */
